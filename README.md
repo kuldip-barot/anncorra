@@ -27,13 +27,13 @@ Import the package after installation.
 ```python
 >>> import anncorra
 >>> anncorra.explain('NN')
- POS Tags :  NN
- Full form :  Noun
- Desription :  The tag NN tag set makes a distinction between noun singular (NN) and noun plural (NNS).
- Example :
- yaha bAta  galI_NN galI_RDP meM  phEla gayI
-  'this' 'talk'  'lane'      'lane'         'in'    'spread' 'went'
-  “The word was spread in every lane”.
+    POS Tags :  NN
+    Full form :  Noun
+    Desription :  The tag NN tag set makes a distinction between noun singular (NN) and noun plural (NNS).
+    Example :
+    yaha bAta  galI_NN galI_RDP meM  phEla gayI
+     'this' 'talk'  'lane'      'lane'         'in'    'spread' 'went'
+     “The word was spread in every lane”.
 ``` 
 
 ## Contributing
