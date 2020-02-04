@@ -28,6 +28,8 @@ Import the package after installation.
 >>> import anncorra
 >>> anncorra.explain('NN')
 ```
+The output of above command:
+
     POS Tags :  NN
     Full form :  Noun
     Desription :  The tag NN tag set makes a distinction between noun singular (NN) and noun plural (NNS).
