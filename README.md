@@ -36,6 +36,7 @@ anncorra.explain('NN')  # Prints the tag, full form, description and example ass
 Output of the above function call.
 
 ```bash
+$ python anncorra.py
 > POS Tags :  NN
 > Full form :  Noun
 > Desription :  The tag NN tag set makes a distinction between noun singular (NN) and noun plural (NNS).
