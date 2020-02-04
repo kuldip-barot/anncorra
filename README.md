@@ -1,46 +1,43 @@
 # Tags of AnnCorra 
 
+[![GitHub issues](https://img.shields.io/github/issues/kuldip-barot/anncorra)](https://github.com/kuldip-barot/anncorra/issues) [![GitHub forks](https://img.shields.io/github/forks/kuldip-barot/anncorra)](https://github.com/kuldip-barot/anncorra/network) [![GitHub stars](https://img.shields.io/github/stars/kuldip-barot/anncorra)](https://github.com/kuldip-barot/anncorra/stargazers) ![GitHub All Releases](https://img.shields.io/github/downloads/kuldip-barot/anncorra/total) ![GitHub](https://img.shields.io/github/license/kuldip-barot/anncorra)  
 Indian Language Machine Translation (ILMT) project has taken the task of annotating corpora **(AnnCorra)** of several Indian languages and came up with tags which have been defined for the tagging schemes POS (part of speech) tagging.
 
-The project here is about to create a small library file named `anncorra.py`, using language python,to give the meaning of the POS ( Part Of Speech ) tags just using the tag name.
-
+This repository was created to generate a json file with the list of all [POS](https://en.wikipedia.org/wiki/Part-of-speech_tagging) (Part Of Speech) Tags along with their description.
 
 ## Requirements
 
-Module requires the following to run:
+Package requires the following to run:
 
-  * [python][https://www.python.org/downloads/] (preferable version 3+)
+  * [python](https://www.python.org/downloads/) (preferable version 3+)
 
 
 ## Installation
-```python
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+
+```bash
 pip install anncorra
-```
-or
-```python
-pip install s
-```
- 
- 
+``` 
+
 ## Usage
 
-Firstly make sure that file `pos_tags_data.json` and `anncorra.py` in same folder.
-
-* `pos_tags_data.json` file contains the POS data in records of `{POS Tags :, Full form: , Examples: , Definition:}`.
-
-You need to import `anncorra.py` file 
+Import the package after installation.
 
 ```python
-import anncorra                # module file to import
+import anncorra
 ```
 
-You can now get the information of any `tag` stored in `POS_TAGS.json` using below code.
+Use the *explain* function and pass the name of the POS Tag as the argument.
 
 ```python
-anncorra.explain('NN')  # NN is a tag stored in json file. input : tag_name
+anncorra.explain('NN')  # Prints the tag, full form, description and example associated with the input tag.
 ```
 
+## Contributing
 
-## Reference Links
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-   
+## References
+
+[AnnCorra : Annotating Corpora; Guidelines For POS And Chunk Annotation For Indian Languages](http://ltrc.iiit.ac.in/winterschool08/content/data/revised-chunk-pos-ann-guidelines-15-Dec-06.doc)
