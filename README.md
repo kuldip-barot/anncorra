@@ -33,6 +33,17 @@ Use the *explain* function and pass the name of the POS Tag as the argument.
 ```python
 anncorra.explain('NN')  # Prints the tag, full form, description and example associated with the input tag.
 ```
+Output of the above function call.
+
+```bash
+> POS Tags :  NN
+> Full form :  Noun
+> Desription :  The tag NN tag set makes a distinction between noun singular (NN) and noun plural (NNS).
+> Example :
+> yaha bAta  galI_NN galI_RDP meM  phEla gayI
+>  'this' 'talk'  'lane'      'lane'         'in'    'spread' 'went'
+>  “The word was spread in every lane”.
+``` 
 
 ## Contributing
 
