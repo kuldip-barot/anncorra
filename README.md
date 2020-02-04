@@ -43,5 +43,4 @@ anncorra.explain('NN')  # NN is a tag stored in json file. input : tag_name
 
 ## Reference Links
 
-   *[POS tagger][http://ltrc.iiit.ac.in/winterschool08/content/data/revised-chunk-pos-ann-guidelines-15-Dec-06.doc]
-
+   

@@ -8,13 +8,16 @@ with open('README.md') as f:
 
 setuptools.setup(
     author="Kuldeep Barot",
+    #author_email="shay.palachy@gmail.com",
     name="anncorra",
     license="Apache License 2.0",
     description="Anncorra is a python package for giving meaning to POS (Part of Speech) tags.",
-    version="v0.0.2",
+    version="v0.0.6",
     long_description=README,
+    long_description_content_type='text/markdown',    
     url='https://github.com/kuldip-barot/anncorra',
     packages=setuptools.find_packages(),
+    include_package_data=True,
     python_requires=">=3.5",
     install_requires=[],
     classifiers=[
