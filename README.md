@@ -1,9 +1,9 @@
 # Tags of AnnCorra 
 
 [![GitHub issues](https://img.shields.io/github/issues/kuldip-barot/anncorra)](https://github.com/kuldip-barot/anncorra/issues) [![GitHub forks](https://img.shields.io/github/forks/kuldip-barot/anncorra)](https://github.com/kuldip-barot/anncorra/network) [![GitHub stars](https://img.shields.io/github/stars/kuldip-barot/anncorra)](https://github.com/kuldip-barot/anncorra/stargazers) ![GitHub](https://img.shields.io/github/license/kuldip-barot/anncorra)  
-Indian Language Machine Translation (ILMT) project has taken the task of annotating corpora **(AnnCorra)** of several Indian languages and came up with tags which have been defined for the tagging schemes POS (part of speech) tagging.
+Indian Language Machine Translation (ILMT) project has taken the task of annotating corpora **(AnnCorra)** of several Indian languages and came up with tags which have been defined for the tagging schemes for POS (part of speech) tagging.
 
-This repository would explain the definition of [POS](https://en.wikipedia.org/wiki/Part-of-speech_tagging) (Part Of Speech) Tags along with their description.
+This repository would explain the [POS](https://en.wikipedia.org/wiki/Part-of-speech_tagging) (Part Of Speech) Tags along with examples.
 
 ## Requirements
 
