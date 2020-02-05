@@ -24,13 +24,7 @@ or
 
 ```bash
 git clone https://github.com/kuldip-barot/anncorra.git
-```
-
-```bash
 cd anncorra
-```
-
-```bash
 python setup.py install
 ``` 
 
