@@ -1,15 +1,15 @@
 #!/usr/bin/python
 '''
-This the module file to access the function 'explain'
-to understand the POS tags just using their name
-and print its content in understandable format.
+This is the module file to access the function 'explain'
+in order to understand the POS tags just by their name
+and prints its content in understandable format.
 '''
 import json
 import os
 
 DIR_PATH = os.path.dirname(os.path.abspath(__file__))  #path to the directory of current file
 JSONFILEPATH = os.path.join(DIR_PATH, 'pos_tags_data.json')   #json file in same folder to access.
-
+DATA = json.loads(open(JSONFILEPATH).read())
 
 def structured_print(dict_tag):
     '''
@@ -37,7 +37,6 @@ def explain(tag):
         Fetch the details of the POS_TAG(tag) from the json file stored in the same folder
         tag: string,  Name of the tag you want to know about
     '''
-    data = json.loads(open(JSONFILEPATH).read())
-    for dict_tag in data:
+    for dict_tag in DATA:
         if dict_tag['POS Tags'] == tag:
             structured_print(dict_tag)
