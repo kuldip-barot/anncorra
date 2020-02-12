@@ -3,7 +3,7 @@
 [![GitHub issues](https://img.shields.io/github/issues/kuldip-barot/anncorra)](https://github.com/kuldip-barot/anncorra/issues) [![GitHub forks](https://img.shields.io/github/forks/kuldip-barot/anncorra)](https://github.com/kuldip-barot/anncorra/network) [![GitHub stars](https://img.shields.io/github/stars/kuldip-barot/anncorra)](https://github.com/kuldip-barot/anncorra/stargazers) ![GitHub](https://img.shields.io/github/license/kuldip-barot/anncorra)  
 Indian Language Machine Translation (ILMT) project has taken the task of annotating corpora **(AnnCorra)** of several Indian languages and came up with tags which have been defined for the tagging schemes for POS (part of speech) tagging.
 
-This repository would explain the [POS](https://en.wikipedia.org/wiki/Part-of-speech_tagging) (Part Of Speech) Tags along with examples.
+This repository would explain the [POS](https://en.wikipedia.org/wiki/Part-of-speech_tagging) (Part Of Speech) Tags along with examples. Here we have tried to replicate the [explain function](https://spacy.io/api/top-level#spacy.explain) originally used in [spaCy, a library for advanced Natural Language Processing](https://github.com/explosion/spaCy).
 
 ## Requirements
 
@@ -53,4 +53,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## References
 
-[AnnCorra : Annotating Corpora; Guidelines For POS And Chunk Annotation For Indian Languages](http://ltrc.iiit.ac.in/winterschool08/content/data/revised-chunk-pos-ann-guidelines-15-Dec-06.doc)
+*[AnnCorra : Annotating Corpora; Guidelines For POS And Chunk Annotation For Indian Languages](http://ltrc.iiit.ac.in/winterschool08/content/data/revised-chunk-pos-ann-guidelines-15-Dec-06.doc)
+
+*[spaCy, a library for advanced Natural Language Processing](https://github.com/explosion/spaCy).
+
